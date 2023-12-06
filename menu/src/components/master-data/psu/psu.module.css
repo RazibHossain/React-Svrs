@@ -1,0 +1,81 @@
+.mainDiv{
+    /* background-color: blue; */
+    height: 100%;
+    width: 100%;
+}
+.pageContent {
+    height: 400px;
+    width: 400px;
+    background-color: #f0f0f0;
+    display: block;
+    margin-top: 12px;
+    margin-left: 12px;
+}
+.inputblock {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 1em 0 0.5em;
+  }
+  
+  .label {
+    font-family: 'Source Sans Pro';
+    letter-spacing: 0.25px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 0.35em;
+  }
+  .requiredLabel {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .input {
+    padding: 0.6em 1em;
+    width: 350px;
+    background-color: #fff;
+    outline: none;
+    border: 1px solid rgb(130, 130, 130);
+    border-radius: 0.25em;
+  }
+  /* .warning-message {
+    color: #ff0000;
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  
+  .wrong-input {
+    border: 2px solid #ff0000;
+    color: #ff0000;
+  }
+  
+  .correct-input {
+    border: 2px solid #03bb56;
+    color: #03bb56;
+  }
+  
+  .submit-button-wrapper {
+    display: flex;
+  }
+  
+  .float {
+    justify-content: flex-end;
+  }
+  
+  .submit-button {
+    margin-top: 1.75rem;
+    background-color: #000;
+    color: #fff;
+    letter-spacing: 0.5px;
+    padding: 0.85em 2.2em;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: 500;
+    border-radius: 4px;
+  }
+  
+  .button-success {
+    color: white;
+    background-color: #03bb56;
+  } */

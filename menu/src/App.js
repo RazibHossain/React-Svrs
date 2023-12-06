@@ -22,10 +22,7 @@ const Contact = () => <div>Contact Page</div>;
 
         <Route path="/home" exact element={<Home />}/>
         <Route path="/profile" exact element={<Profile />} />
-        <Route path="/psu" exact element={<PsuAdd />} />
-
-
-
+        <Route path="/svrs/master-data/Psu/Add/" exact element={<PsuAdd />} />
 
           {/* <Route path="/" exact element={<Home/>} />
           <Route path="/about" exact celement={<About/>} />

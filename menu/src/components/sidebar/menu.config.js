@@ -27,22 +27,22 @@ import { faTable } from "@fortawesome/free-solid-svg-icons";
     {
       label: 'Master Data',
       Icon: faTable,
-      to: '/settings',
+      to: '/svrs/master-data',
       children: [
         {
           label: 'Psu',
           Icon: faTable,
-          to: 'security',
+          to: 'Psu',
           children: [
             {
               label: 'Add',
               Icon: faTable,
-              to: 'credentials',
+              to: 'Add/',
             },
             {
               label: 'List',
               Icon: faTable,
-              to: '2fa',
+              to: 'List/',
             },
           ],
         },
